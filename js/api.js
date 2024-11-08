@@ -55,6 +55,4 @@ function processAPIContent(APIContent) {
 	console.log(res);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-	getAPIContent();
-});
+document.addEventListener("DOMContentLoaded", () => getAPIContent());
